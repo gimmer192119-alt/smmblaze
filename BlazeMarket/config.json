@@ -1,0 +1,48 @@
+{
+  "bot": {
+    "token": "",
+    "admin_ids": [],
+    "webhook_url": ""
+  },
+  "payment": {
+    "pally_merchant_id": "",
+    "pally_secret_key": "",
+    "currency": "RUB"
+  },
+  "api": {
+    "twiboost_api_key": "",
+    "twiboost_api_url": "https://twiboost.com/api/v2",
+    "smmway_api_key": "",
+    "smmway_api_url": "https://smmway.ru/api/v2"
+  },
+  "mirrors": {
+    "enabled": true,
+    "default_share_percent": 20.0,
+    "base_markup_percent": 0
+  },
+  "design": {
+    "theme": "lime_graphite",
+    "primary_color": "#32CD32",
+    "secondary_color": "#2F4F4F",
+    "accent_color": "#7FFF00"
+  },
+  "services": {
+    "categories": {
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "twitter": "Twitter/X",
+      "facebook": "Facebook",
+      "vk": "VKontakte",
+      "other": "Other"
+    }
+  },
+  "messages": {
+    "welcome_buyer": "👋 Добро пожаловать в BlazeMarket!\n\nВы выбрали режим покупателя. Введите код заказа или выберите услугу.",
+    "welcome_seller": "💼 Добро пожаловать в BlazeMarket!\n\nВы выбрали режим продавца. Хотите купить бота за 1000₽ или создать бесплатный магазин?",
+    "enter_code": "🔑 Введите код заказа:",
+    "enter_comments": "📝 Отправьте комментарии (текстом или файлом). Без символа #",
+    "order_created": "✅ Заказ создан! Ожидайте выполнения."
+  }
+}

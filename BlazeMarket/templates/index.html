@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BlazeMarket - SMM Services</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">🔥</span>
+                <span class="logo-text">BlazeMarket</span>
+            </div>
+            <div class="user-info" id="userInfo"></div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Start Screen -->
+            <div id="startScreen" class="screen active">
+                <h1 class="welcome-title">Добро пожаловать в BlazeMarket</h1>
+                <p class="welcome-subtitle">Ваш SMM маркетплейс</p>
+                
+                <div class="role-selection">
+                    <button class="role-btn buyer-btn" onclick="selectRole('buyer')">
+                        <span class="role-icon">👤</span>
+                        <span class="role-text">Я покупатель</span>
+                    </button>
+                    
+                    <button class="role-btn seller-btn" onclick="selectRole('seller')">
+                        <span class="role-icon">💼</span>
+                        <span class="role-text">Я продавец</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Buyer Screen -->
+            <div id="buyerScreen" class="screen">
+                <h2 class="screen-title">👤 Покупатель</h2>
+                
+                <div class="menu-grid">
+                    <button class="menu-item" onclick="showHaveOrder()">
+                        <span class="menu-icon">📋</span>
+                        <span class="menu-text">У меня есть заказ</span>
+                    </button>
+                    
+                    <button class="menu-item" onclick="showCategories()">
+                        <span class="menu-icon">🛒</span>
+                        <span class="menu-text">Я хочу купить</span>
+                    </button>
+                </div>
+                
+                <button class="back-btn" onclick="goBack()">◀️ Назад</button>
+            </div>
+
+            <!-- Seller Screen -->
+            <div id="sellerScreen" class="screen">
+                <h2 class="screen-title">💼 Продавец</h2>
+                
+                <div class="seller-options">
+                    <button class="seller-option" onclick="buyBot()">
+                        <span class="option-icon">💰</span>
+                        <div class="option-content">
+                            <span class="option-title">Купить бота</span>
+                            <span class="option-price">1000₽</span>
+                        </div>
+                    </button>
+                    
+                    <button class="seller-option" onclick="createShop()">
+                        <span class="option-icon">🏪</span>
+                        <div class="option-content">
+                            <span class="option-title">Создать магазин</span>
+                            <span class="option-subtitle">Бесплатно</span>
+                        </div>
+                    </button>
+                    
+                    <button class="seller-option" onclick="setMarkup()">
+                        <span class="option-icon">⚙️</span>
+                        <div class="option-content">
+                            <span class="option-title">Настроить наценку</span>
+                        </div>
+                    </button>
+                </div>
+                
+                <button class="back-btn" onclick="goBack()">◀️ Назад</button>
+            </div>
+
+            <!-- Categories Screen -->
+            <div id="categoriesScreen" class="screen">
+                <h2 class="screen-title">🛒 Категории услуг</h2>
+                
+                <div class="categories-grid">
+                    <button class="category-card" onclick="selectCategory('telegram')">
+                        <span class="cat-icon">📱</span>
+                        <span class="cat-name">Telegram</span>
+                    </button>
+                    
+                    <button class="category-card" onclick="selectCategory('instagram')">
+                        <span class="cat-icon">📸</span>
+                        <span class="cat-name">Instagram</span>
+                    </button>
+                    
+                    <button class="category-card" onclick="selectCategory('tiktok')">
+                        <span class="cat-icon">🎵</span>
+                        <span class="cat-name">TikTok</span>
+                    </button>
+                    
+                    <button class="category-card" onclick="selectCategory('youtube')">
+                        <span class="cat-icon">📺</span>
+                        <span class="cat-name">YouTube</span>
+                    </button>
+                    
+                    <button class="category-card" onclick="selectCategory('twitter')">
+                        <span class="cat-icon">🐦</span>
+                        <span class="cat-name">Twitter/X</span>
+                    </button>
+                    
+                    <button class="category-card" onclick="selectCategory('facebook')">
+                        <span class="cat-icon">📘</span>
+                        <span class="cat-name">Facebook</span>
+                    </button>
+                    
+                    <button class="category-card" onclick="selectCategory('vk')">
+                        <span class="cat-icon">🔵</span>
+                        <span class="cat-name">VKontakte</span>
+                    </button>
+                    
+                    <button class="category-card" onclick="selectCategory('other')">
+                        <span class="cat-icon">📦</span>
+                        <span class="cat-name">Другое</span>
+                    </button>
+                </div>
+                
+                <button class="back-btn" onclick="showBuyerMenu()">◀️ Назад</button>
+            </div>
+
+            <!-- Enter Code Screen -->
+            <div id="codeScreen" class="screen">
+                <h2 class="screen-title">🔑 Введите код заказа</h2>
+                
+                <input type="text" id="orderCodeInput" class="code-input" placeholder="Код заказа" maxlength="12">
+                
+                <button class="submit-btn" onclick="submitCode()">Продолжить</button>
+                <button class="back-btn" onclick="showBuyerMenu()">◀️ Назад</button>
+            </div>
+
+            <!-- Comments Screen -->
+            <div id="commentsScreen" class="screen">
+                <h2 class="screen-title">📝 Отправьте комментарии</h2>
+                
+                <p class="comments-hint">Отправьте текст или файл с комментариями (без символа #)</p>
+                
+                <textarea id="commentsText" class="comments-input" placeholder="Введите комментарии здесь..."></textarea>
+                
+                <div class="file-upload">
+                    <label for="commentsFile" class="file-label">
+                        📎 Прикрепить файл
+                        <input type="file" id="commentsFile" onchange="handleFileSelect()" hidden>
+                    </label>
+                    <span id="fileName" class="file-name"></span>
+                </div>
+                
+                <button class="submit-btn" onclick="submitComments()">Отправить</button>
+                <button class="back-btn" onclick="showCodeScreen()">◀️ Назад</button>
+            </div>
+
+            <!-- Services List Screen -->
+            <div id="servicesScreen" class="screen">
+                <h2 class="screen-title" id="servicesTitle">📦 Услуги</h2>
+                
+                <div id="servicesList" class="services-list"></div>
+                
+                <button class="back-btn" onclick="showCategories()">◀️ Назад</button>
+            </div>
+
+            <!-- Mirror Setup Screen -->
+            <div id="mirrorScreen" class="screen">
+                <h2 class="screen-title">🏪 Настройка магазина</h2>
+                
+                <div class="mirror-info">
+                    <div class="info-row">
+                        <span class="info-label">Код зеркала:</span>
+                        <span class="info-value" id="mirrorCode">-</span>
+                    </div>
+                    
+                    <div class="info-row">
+                        <span class="info-label">Наценка:</span>
+                        <span class="info-value" id="mirrorMarkup">0%</span>
+                    </div>
+                    
+                    <div class="info-row">
+                        <span class="info-label">Ваша доля:</span>
+                        <span class="info-value" id="mirrorShare">20%</span>
+                    </div>
+                </div>
+                
+                <button class="action-btn" onclick="copyMirrorLink()">🔗 Копировать ссылку</button>
+                <button class="action-btn" onclick="editMarkup()">✏️ Изменить наценку</button>
+                <button class="back-btn" onclick="showSellerMenu()">◀️ Назад</button>
+            </div>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div id="loadingOverlay" class="loading-overlay">
+            <div class="spinner"></div>
+            <p>Загрузка...</p>
+        </div>
+    </div>
+
+    <script src="static/app.js"></script>
+</body>
+</html>
