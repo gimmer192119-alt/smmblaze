@@ -1,0 +1,140 @@
+[18:08:52] SMM INFO: ==================================================
+[18:08:52] SMM INFO: 🤖 SMM Auto Bot — Запуск
+[18:08:52] SMM INFO: ==================================================
+[18:08:52] SMM INFO: ✅ Конфигурация загружена
+[18:08:52] SMM INFO: ✅ База данных готова
+[18:08:59] SMM INFO: ✅ TwiBoost: 1.11₽
+[18:08:59] SMM INFO: ✅ DNS FunPay доступен
+[18:08:59] SMM.funpay INFO: FunPay: start init
+[18:08:59] SMM.funpay INFO: FunPay: creating Account
+[18:08:59] SMM.funpay INFO: FunPay: requesting account page
+[18:09:04] SMM.funpay INFO: FunPay: account loaded (BlazeMarket, 19008848)
+[18:09:04] SMM.funpay INFO: FunPay: creating Runner
+[18:09:04] SMM.funpay INFO: FunPay: runner loop thread started
+[18:09:05] SMM.funpay INFO: FunPay: runner started for BlazeMarket (19008848)
+[18:09:05] SMM INFO: ✅ FunPay: BlazeMarket (ID: 19008848)
+[18:09:06] SMM.funpay INFO: FunPay: initial order #H43Y7HKH
+[18:09:06] SMM.funpay INFO: FunPay: initial order #YQ11RACS
+[18:09:06] SMM.funpay INFO: FunPay: initial order #XCDG61LR
+[18:09:06] SMM.funpay INFO: FunPay: initial order #FWUL2CJN
+[18:09:06] SMM.funpay INFO: FunPay: initial order #PAKB9YE9
+[18:09:06] SMM.funpay INFO: FunPay: initial order #DFE7HWPK
+[18:09:06] SMM.funpay INFO: FunPay: initial order #V22VXM5T
+[18:09:06] SMM.funpay INFO: FunPay: initial order #MSGT6WQF
+[18:09:06] SMM.funpay INFO: FunPay: initial order #BM3TY2Q9
+[18:09:06] SMM.funpay INFO: FunPay: initial order #S8A8AL2B
+[18:09:06] SMM.funpay INFO: FunPay: initial order #FK9WSSKJ
+[18:09:06] SMM.funpay INFO: FunPay: initial order #DLE432P6
+[18:09:06] SMM.funpay INFO: FunPay: initial order #FLY6RURV
+[18:09:06] SMM.funpay INFO: FunPay: initial order #MZDPYBXJ
+[18:09:06] SMM.funpay INFO: FunPay: initial order #UUY93DNQ
+[18:09:06] SMM.funpay INFO: FunPay: initial order #QJ46BY4J
+[18:09:06] SMM.funpay INFO: FunPay: initial order #CUYJFUMG
+[18:09:06] SMM.funpay INFO: FunPay: initial order #CDTY6RGU
+[18:09:06] SMM.funpay INFO: FunPay: initial order #FCAFBX4F
+[18:09:06] SMM.funpay INFO: FunPay: initial order #NXBYTYS9
+[18:09:06] SMM.funpay INFO: FunPay: initial order #FZCRZQF7
+[18:09:06] SMM.funpay INFO: FunPay: initial order #BGQ8E91T
+[18:09:06] SMM.funpay INFO: FunPay: initial order #FCLX56UQ
+[18:09:06] SMM.funpay INFO: FunPay: initial order #HUG1TY6Y
+[18:09:06] SMM.funpay INFO: FunPay: initial order #MZDH8B1J
+[18:09:06] SMM.funpay INFO: FunPay: initial order #T3MYAJTK
+[18:09:06] SMM.funpay INFO: FunPay: initial order #XVNLLS6R
+[18:09:06] SMM.funpay INFO: FunPay: initial order #J7U9VK5A
+[18:09:06] SMM.funpay INFO: FunPay: initial order #HSLQA7LB
+[18:09:06] SMM.funpay INFO: FunPay: initial order #DCBK8SNN
+[18:09:06] SMM.funpay INFO: FunPay: initial order #TRSP4ULB
+[18:09:06] SMM.funpay INFO: FunPay: initial order #BWP23BAW
+[18:09:06] SMM.funpay INFO: FunPay: initial order #BF2V5RE2
+[18:09:06] SMM.funpay INFO: FunPay: initial chat chat=249882089
+[18:09:06] SMM.funpay INFO: FunPay: initial chat chat=242465265
+[18:09:06] SMM.funpay INFO: FunPay: initial chat chat=249400897
+[18:09:06] SMM.funpay INFO: FunPay: initial chat chat=249185617
+[18:09:06] SMM.funpay INFO: FunPay: initial chat chat=249181566
+[18:09:06] SMM.funpay INFO: FunPay: initial chat chat=242446050
+[18:09:06] SMM INFO: ✅ FunPay lots detected: 1
+[18:09:06] SMM INFO: ✅ Telegram бот создан
+[18:09:06] SMM INFO: ✅ Хэндлеры зарегистрированы
+[18:09:06] SMM INFO: ✅ Фоновые задачи TwiBoost запущены
+[18:09:06] SMM INFO: Checking orders... Active: 0
+[18:09:06] SMM INFO: ✅ Поддержка FunPay запущена
+[18:09:06] SMM INFO: ==================================================
+[18:09:06] SMM INFO: 🚀 Бот запущен! Ctrl+C для остановки
+[18:09:06] SMM INFO: ==================================================
+[18:09:06] SMM INFO: Starting Telegram polling...
+[18:09:15] SMM.funpay INFO: FunPay: fallback poll bootstrap completed
+[18:09:36] SMM INFO: Checking orders... Active: 0
+[18:09:37] SMM WARNING: FunPay auto-raise skipped: Подождите 49 минут.
+[18:10:06] SMM INFO: Checking orders... Active: 0
+[18:10:37] SMM INFO: Checking orders... Active: 0
+[18:11:07] SMM INFO: Checking orders... Active: 0
+[18:11:37] SMM INFO: Checking orders... Active: 0
+[18:12:07] SMM INFO: Checking orders... Active: 0
+[18:12:37] SMM INFO: Checking orders... Active: 0
+[18:13:07] SMM INFO: Checking orders... Active: 0
+[18:13:37] SMM INFO: Checking orders... Active: 0
+[18:14:07] SMM INFO: Checking orders... Active: 0
+[18:14:37] SMM INFO: Checking orders... Active: 0
+[18:15:07] SMM INFO: Checking orders... Active: 0
+[18:15:37] SMM INFO: Checking orders... Active: 0
+[18:16:07] SMM INFO: Checking orders... Active: 0
+[18:16:37] SMM INFO: Checking orders... Active: 0
+[18:17:07] SMM INFO: Checking orders... Active: 0
+[18:17:38] SMM INFO: Checking orders... Active: 0
+[18:18:08] SMM INFO: Checking orders... Active: 0
+[18:18:38] SMM INFO: Checking orders... Active: 0
+[18:19:08] SMM INFO: Checking orders... Active: 0
+[18:19:38] SMM INFO: Checking orders... Active: 0
+[18:20:08] SMM INFO: Checking orders... Active: 0
+[18:20:38] SMM INFO: Checking orders... Active: 0
+[18:21:08] SMM INFO: Checking orders... Active: 0
+[18:21:38] SMM INFO: Checking orders... Active: 0
+[18:22:08] SMM INFO: Checking orders... Active: 0
+[18:22:38] SMM INFO: Checking orders... Active: 0
+[18:23:08] SMM INFO: Checking orders... Active: 0
+[18:23:38] SMM INFO: Checking orders... Active: 0
+[18:24:08] SMM INFO: Checking orders... Active: 0
+[18:24:38] SMM INFO: Checking orders... Active: 0
+[18:25:08] SMM INFO: Checking orders... Active: 0
+[18:25:38] SMM INFO: Checking orders... Active: 0
+[18:26:08] SMM INFO: Checking orders... Active: 0
+[18:26:38] SMM INFO: Checking orders... Active: 0
+[18:27:08] SMM INFO: Checking orders... Active: 0
+[18:27:38] SMM INFO: Checking orders... Active: 0
+[18:28:08] SMM INFO: Checking orders... Active: 0
+[18:28:38] SMM INFO: Checking orders... Active: 0
+[18:29:08] SMM INFO: Checking orders... Active: 0
+[18:29:38] SMM INFO: Checking orders... Active: 0
+[18:30:08] SMM INFO: Checking orders... Active: 0
+[18:30:38] SMM INFO: Checking orders... Active: 0
+[18:31:08] SMM INFO: Checking orders... Active: 0
+[18:31:38] SMM INFO: Checking orders... Active: 0
+[18:32:08] SMM INFO: Checking orders... Active: 0
+[18:32:38] SMM INFO: Checking orders... Active: 0
+[18:33:08] SMM INFO: Checking orders... Active: 0
+[18:33:38] SMM INFO: Checking orders... Active: 0
+[18:34:08] SMM INFO: Checking orders... Active: 0
+[18:34:38] SMM INFO: Checking orders... Active: 0
+[18:35:09] SMM INFO: Checking orders... Active: 0
+[18:35:31] SMM ERROR: Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8575741075:AAFlofS5YWm4GJmlvm2-lXsaPih879gWCwU/getUpdates?offset=998698013&allowed_updates=%5B%22message%22%2C+%22callback_query%22%5D&timeout=10 (Caused by ProxyError('Unable to connect to proxy', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[18:35:31] SMM INFO: Telegram connection issue, resetting session and retrying in 5 seconds...
+[18:35:36] SMM INFO: Starting Telegram polling...
+[18:35:39] SMM INFO: Checking orders... Active: 0
+[18:35:58] SMM ERROR: Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8575741075:AAFlofS5YWm4GJmlvm2-lXsaPih879gWCwU/getUpdates?offset=998698013&allowed_updates=%5B%22message%22%2C+%22callback_query%22%5D&timeout=10 (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=20)"))
+[18:35:58] SMM INFO: Telegram connection issue, resetting session and retrying in 5 seconds...
+[18:36:03] SMM INFO: Starting Telegram polling...
+[18:36:09] SMM INFO: Checking orders... Active: 0
+[18:36:24] SMM ERROR: Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8575741075:AAFlofS5YWm4GJmlvm2-lXsaPih879gWCwU/getUpdates?offset=998698013&allowed_updates=%5B%22message%22%2C+%22callback_query%22%5D&timeout=10 (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=20)"))
+[18:36:24] SMM INFO: Telegram connection issue, resetting session and retrying in 5 seconds...
+[18:36:29] SMM INFO: Starting Telegram polling...
+[18:36:39] SMM INFO: Checking orders... Active: 0
+[18:36:50] SMM ERROR: Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8575741075:AAFlofS5YWm4GJmlvm2-lXsaPih879gWCwU/getUpdates?offset=998698013&allowed_updates=%5B%22message%22%2C+%22callback_query%22%5D&timeout=10 (Caused by ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[18:36:50] SMM INFO: Telegram connection issue, resetting session and retrying in 5 seconds...
+[18:36:55] SMM INFO: Starting Telegram polling...
+[18:37:09] SMM INFO: Checking orders... Active: 0
+[18:37:15] SMM ERROR: Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8575741075:AAFlofS5YWm4GJmlvm2-lXsaPih879gWCwU/getUpdates?offset=998698013&allowed_updates=%5B%22message%22%2C+%22callback_query%22%5D&timeout=10 (Caused by ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[18:37:15] SMM INFO: Telegram connection issue, resetting session and retrying in 5 seconds...
+[18:37:20] SMM INFO: Starting Telegram polling...
+[18:37:39] SMM INFO: Checking orders... Active: 0
+[18:37:40] SMM ERROR: Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8575741075:AAFlofS5YWm4GJmlvm2-lXsaPih879gWCwU/getUpdates?offset=998698013&allowed_updates=%5B%22message%22%2C+%22callback_query%22%5D&timeout=10 (Caused by ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[18:37:40] SMM INFO: Telegram connection issue, resetting session and retrying in 5 seconds...

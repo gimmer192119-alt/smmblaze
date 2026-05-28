@@ -1,0 +1,141 @@
+{
+  "bot_token": "8319875713:AAF2xUoDIlUwsh7ftBO8r3u0GDu_VRn8ns8",
+  "admin_ids": [
+    1052214432
+  ],
+  "twiboost_api_key": "7yzNNWT9Nnuhn3U2c2r7ro1E0MfHzcHnlnJYskQO6ziVnbMkKNSzD0mgApqs",
+  "twiboost_api_url": "https://twiboost.com/api/v2",
+  "auto_process_orders": true,
+  "order_check_interval": 60,
+  "balance_check_interval": 300,
+  "low_balance_threshold": 5.0,
+  "usd_rub_rate": 78.0,
+  "daily_report_time": "09:00",
+  "notifications": {
+    "new_order": true,
+    "order_completed": true,
+    "order_error": true,
+    "low_balance": false,
+    "daily_report": true,
+    "buyer_message": true,
+    "support_ticket": true,
+    "review_bonus": true,
+    "startup": false
+  },
+  "messages": {
+    "order_created": "✅ Заказ #{order_id} создан!\n\n📦 Услуга: {service_name}\n🔗 Ссылка: {link}\n📊 Количество: {quantity}\n💰 Цена: {price}₽\n\n⏳ Выполнение уже началось!",
+    "order_completed": "🎉 Заказ #{order_id} выполнен!\n\n📦 {service_name}\n✅ Всё готово!",
+    "order_error": "❌ Ошибка заказа #{order_id}\n\n📦 {service_name}\n⚠️ {error}\n\nМы уже разбираемся!",
+    "review_bonus": "🎁 Спасибо за отзыв! Держи бонус:\n\n🎫 Промокод: {promo_code}\n💰 {bonus_text}\n📅 Действует до: {expires_at}"
+  },
+  "license_key": "",
+  "license_server_url": "",
+  "funpay_golden_key": "qs8q4faunoae4pmx3ymz9fn9s3gi9psk",
+  "funpay_auto_process": true,
+  "funpay_auto_delivery": true,
+  "funpay_check_interval": 30,
+  "funpay_proxy": "",
+  "support_center": {
+    "enabled": true,
+    "php_sessid": "hfW7fdc3aFrNt3G-zpyzCWiFa9-rMv1Q",
+    "funpay_login": "BlazeMarket",
+    "form_id": 1,
+    "login_field_id": 1,
+    "order_field_id": 2,
+    "role_field_id": 3,
+    "role_value": 2,
+    "subject_field_id": 5,
+    "subject_value": 201,
+    "timeout": 20,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"
+  },
+  "telegram_proxy": "",
+  "funpay_category_presets": {
+    "4767": [
+      {
+        "category_name": "Telegram / Услуги",
+        "subcategory_name": "Telegram / Услуги",
+        "subcategory_id": 703
+      }
+    ],
+    "3958": [
+      {
+        "category_name": "Telegram / Услуги",
+        "subcategory_name": "Telegram / Услуги",
+        "subcategory_id": 703
+      }
+    ],
+    "4660": [
+      {
+        "category_name": "TikTok / Услуги",
+        "subcategory_name": "TikTok / Услуги",
+        "subcategory_id": 732
+      }
+    ]
+  },
+  "funpay_auto_raise": true,
+  "funpay_raise_interval": 600,
+  "mirrors": {
+    "enabled": true,
+    "default_share_percent": 5.0
+  },
+  "twiboost_web": {
+    "enabled": true,
+    "orders_url": "https://twiboost.com/api/orders",
+    "site_host": "twiboost.com",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0",
+    "xsrf_token": "",
+    "cookies": "panel_users_auth=eyJpdiI6IkdCUTE4TDF1L2ZLYUI5d3phU2lCaXc9PSIsInZhbHVlIjoiOWo1UlB5c1JWQ0pZNGVTdU4zcG9LMnFVc0R1S043QTVmYzJXSDkrY24zRDlwTmpneVRJN3BBVEkyUDRqcUtkYzA3Y1RtMXl1S3ZvbVBya3ZNdEdsYlp5bkk3U2VDWlVBK2tsOFpteGVPeWs4a1NWSXBtNFVNRlZ3SGlydzI0Tld6SXFnOGhXekxyWHpBUjhpZnNEYUpwUjNsQnR4ZE1oN1pwNkQvMkptMmY0PSIsIm1hYyI6IjU5ZTQwOTA4NTdmMDY0YTcwNTc2MWE1MGNiN2QxOTRiMjlhMGJmZDJhNjVmYTBhNmE0YzhhZWVmYTIzYzVmZGEiLCJ0YWciOiIifQ%3D%3D;; socpanel_session=eyJpdiI6IlVPTEhEeC8yR2MrSVBKTmt5Smw3dGc9PSIsInZhbHVlIjoiTi9DUXh1WkVBVVdZSkpYWEgvWjRWenVFdlZWMFQrcnlOS2xOb3BjTFV0TWNnakpCdWVtZGlISmFaM3B2RzM1eHc1TjFPNWJqc1ZMS2dYOWQ1aitpakJjUWdWemZ4UFRGSXBrWDJXWHgrRW5rbGFaZFFZT3V6NVpsbzJtWUNFOHciLCJtYWMiOiI2OWM5YTA3OTdjYTk0MDM2MjRmZmQxYThjNjFiYzRjZmY5MGVjMTRiZmI0ZjAzMGVlMWMwZTk1YzM1ZWNmMjk0IiwidGFnIjoiIn0%3D;; XSRF-TOKEN=eyJpdiI6IlM5bUlnMnEyVzkzVFJPMlRtRzIxNnc9PSIsInZhbHVlIjoibWduaW5LdHZuNmVqUm9ZWm5VK1FqTzNRUitLVGtONk95QUV0RXJmLzMyd2ZPRFlpMThWYWhMTGJ4QkFrdTFiRWhXYjlHajVVQ0JUcVZ2Nzlud3JNUDZueVFtS2ZOV1hhYmo1cE1RMkdNd0U5eGVCN2drVnJ4N2pvUGtnQkNDT2oiLCJtYWMiOiJlOTY0YjYyMzJhNTdjNmVmY2E3NjViNmE0MTZjMWY3OGZhMTVkZjUwNzJlNDM2YTc5NTQzODBjMDI0ZGYwYWRjIiwidGFnIjoiIn0%3D;"
+  },
+  "app": {
+    "role": "owner",
+    "title": "SMM Auto Bot",
+    "forced_markup_percent": 0,
+    "hide_console": false
+  },
+  "funpay_withdraw": {
+    "currency_id": "rub",
+    "ext_currency_id": "fps",
+    "wallet": "79231774933",
+    "wallet_extra": "100000000004",
+    "amount_int": 80,
+    "twofactor_code": "",
+    "auto_enabled": false,
+    "auto_min_balance": 0
+  },
+  "knowledge_base": {
+    "enabled": true,
+    "greeting_text": "Здравствуйте! Все товары в этом магазине на авто-выдаче. После оплаты бот сам подскажет, что отправить дальше.",
+    "entries": [
+      {
+        "title": "Автовыдача",
+        "triggers": [
+          "привет",
+          "здравствуйте",
+          "добрый день",
+          "hello",
+          "hi"
+        ],
+        "reply": "Здравствуйте! Все товары в этом магазине на авто-выдаче. После оплаты бот сам подскажет, что отправить дальше."
+      },
+      {
+        "title": "База знаний",
+        "triggers": [
+          "база знаний",
+          "faq",
+          "помощь",
+          "помоги"
+        ],
+        "reply": "Популярные ответы:\n• Все товары на авто-выдаче.\n• Если заказ ещё не запущен, можно написать: Отмена.\n• Для статуса заказа напишите: инфо.\n• Для рефилла напишите: рефил.\n• Для скорости услуги напишите: скорость"
+      },
+      {
+        "title": "Скорость",
+        "triggers": [
+          "скорость",
+          "speed"
+        ],
+        "reply": "Напишите команду в формате:\nскорость <ссылка TwiBoost>\nили просто: скорость\nТогда бот попробует показать скорость услуги текущего заказа."
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "bot_token": "8575741075:AAFlofS5YWm4GJmlvm2-lXsaPih879gWCwU",
+  "admin_ids": [
+    1052214432
+  ],
+  "twiboost_api_key": "7yzNNWT9Nnuhn3U2c2r7ro1E0MfHzcHnlnJYskQO6ziVnbMkKNSzD0mgApqs",
+  "twiboost_api_url": "https://twiboost.com/api/v2",
+  "auto_process_orders": true,
+  "order_check_interval": 60,
+  "balance_check_interval": 300,
+  "low_balance_threshold": 5.0,
+  "usd_rub_rate": 78.0,
+  "daily_report_time": "09:00",
+  "notifications": {
+    "new_order": true,
+    "order_completed": true,
+    "order_error": true,
+    "low_balance": false,
+    "daily_report": true,
+    "buyer_message": true,
+    "support_ticket": true,
+    "review_bonus": true,
+    "startup": false
+  },
+  "messages": {
+    "order_created": "✅ Заказ #{order_id} создан!\n\n📦 Услуга: {service_name}\n🔗 Ссылка: {link}\n📊 Количество: {quantity}\n💰 Цена: {price}₽\n\n⏳ Выполнение уже началось!",
+    "order_completed": "🎉 Заказ #{order_id} выполнен!\n\n📦 {service_name}\n✅ Всё готово!",
+    "order_error": "❌ Ошибка заказа #{order_id}\n\n📦 {service_name}\n⚠️ {error}\n\nМы уже разбираемся!",
+    "review_bonus": "🎁 Спасибо за отзыв! Держи бонус:\n\n🎫 Промокод: {promo_code}\n💰 {bonus_text}\n📅 Действует до: {expires_at}"
+  },
+  "license_key": "",
+  "license_server_url": "",
+  "funpay_golden_key": "236dbxu53jbau2h1jtdu2xhq7vkd626c",
+  "funpay_auto_process": true,
+  "funpay_auto_delivery": true,
+  "funpay_check_interval": 30,
+  "funpay_proxy": "",
+  "support_center": {
+    "enabled": false,
+    "php_sessid": "hfW7fdc3aFrNt3G-zpyzCWiFa9-rMv1Q",
+    "funpay_login": "BlazeMarket",
+    "form_id": 1,
+    "login_field_id": 1,
+    "order_field_id": 2,
+    "role_field_id": 3,
+    "role_value": 2,
+    "subject_field_id": 5,
+    "subject_value": 201,
+    "timeout": 20,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"
+  },
+  "telegram_proxy": "",
+  "funpay_category_presets": {},
+  "funpay_auto_raise": true,
+  "funpay_raise_interval": 1800,
+  "mirrors": {
+    "enabled": false,
+    "default_share_percent": 0
+  },
+  "twiboost_web": {
+    "enabled": false,
+    "orders_url": "https://twiboost.com/api/orders",
+    "site_host": "twiboost.com",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0",
+    "xsrf_token": "",
+    "cookies": ""
+  },
+  "app": {
+    "role": "mirror",
+    "title": "SMM Mirror - kfskf",
+    "forced_markup_percent": 0,
+    "hide_console": false
+  },
+  "owner_meta": {
+    "share_percent": 5.0,
+    "owner_admin_ids": [
+      1052214432
+    ]
+  }
+}
